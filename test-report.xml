@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite id="0" name="E:\D Drive\Node.js_with_Express_Framework_quiz_answers\Challenge\test\cars.test.js" errors="0" package="E:\D Drive\Node.js_with_Express_Framework_quiz_answers\Challenge\test\cars.test.js" hostname="localhost" tests="15" failures="5" time="13.948" timestamp="2023-06-12T15:40:34">
+    <properties>
+    </properties>
+    <testcase classname="Adding a new car" name="Adding a new car" time="0">
+    </testcase>
+    <testcase classname="Viewing cars form database" name="Viewing cars form database" time="0">
+    </testcase>
+    <testcase classname="Viewing cars with a particular search value in name or manufacturer" name="Viewing cars with a particular search value in name or manufacturer" time="0">
+      <failure message="Error: thrown: &quot;Exceeded timeout of 5000 ms for a test.
+Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout.&quot;
+    at Object.test (E:\D Drive\Node.js_with_Express_Framework_quiz_answers\Challenge\test\cars.test.js:35:1)
+    at Runtime._execModule (E:\D Drive\Node.js_with_Express_Framework_quiz_answers\Challenge\node_modules\jest-runtime\build\index.js:1429:24)
+    at Runtime._loadModule (E:\D Drive\Node.js_with_Express_Framework_quiz_answers\Challenge\node_modules\jest-runtime\build\index.js:1013:12)
+    at Runtime.requireModule (E:\D Drive\Node.js_with_Express_Framework_quiz_answers\Challenge\node_modules\jest-runtime\build\index.js:873:12)
+    at jestAdapter (E:\D Drive\Node.js_with_Express_Framework_quiz_answers\Challenge\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:77:13)
+    at runTestInternal (E:\D Drive\Node.js_with_Express_Framework_quiz_answers\Challenge\node_modules\jest-runner\build\runTest.js:367:16)
+    at runTest (E:\D Drive\Node.js_with_Express_Framework_quiz_answers\Challenge\node_modules\jest-runner\build\runTest.js:444:34)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="Viewing cars with a particular search value in name or manufacturer" name="Viewing cars with a particular search value in name or manufacturer" time="0">
+      <failure message="Error: thrown: &quot;Exceeded timeout of 5000 ms for a test.
+Add a timeout value to this test to increase the timeout, if this is a long-running test. See https://jestjs.io/docs/api#testname-fn-timeout.&quot;
+    at Object.test (E:\D Drive\Node.js_with_Express_Framework_quiz_answers\Challenge\test\cars.test.js:60:1)
+    at Runtime._execModule (E:\D Drive\Node.js_with_Express_Framework_quiz_answers\Challenge\node_modules\jest-runtime\build\index.js:1429:24)
+    at Runtime._loadModule (E:\D Drive\Node.js_with_Express_Framework_quiz_answers\Challenge\node_modules\jest-runtime\build\index.js:1013:12)
+    at Runtime.requireModule (E:\D Drive\Node.js_with_Express_Framework_quiz_answers\Challenge\node_modules\jest-runtime\build\index.js:873:12)
+    at jestAdapter (E:\D Drive\Node.js_with_Express_Framework_quiz_answers\Challenge\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:77:13)
+    at runTestInternal (E:\D Drive\Node.js_with_Express_Framework_quiz_answers\Challenge\node_modules\jest-runner\build\runTest.js:367:16)
+    at runTest (E:\D Drive\Node.js_with_Express_Framework_quiz_answers\Challenge\node_modules\jest-runner\build\runTest.js:444:34)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="Viewing cars based on its capacity" name="Viewing cars based on its capacity" time="0">
+    </testcase>
+    <testcase classname="Viewing cars in the ascending order of its price" name="Viewing cars in the ascending order of its price" time="0">
+    </testcase>
+    <testcase classname="Viewing cars in the descending order of its price" name="Viewing cars in the descending order of its price" time="0">
+    </testcase>
+    <testcase classname="Viewing cars based on its manufacturers" name="Viewing cars based on its manufacturers" time="0">
+    </testcase>
+    <testcase classname="Viewing cars based on the search value and descending order of its price" name="Viewing cars based on the search value and descending order of its price" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m2[39m
+Received: [31m6[39m
+    at Object.toBe (E:\D Drive\Node.js_with_Express_Framework_quiz_answers\Challenge\test\cars.test.js:188:34)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="Viewing cars based on the capacity and descending order of its price" name="Viewing cars based on the capacity and descending order of its price" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m&quot;car [7m3[27m&quot;[39m
+Received: [31m&quot;car [7m6[27m&quot;[39m
+    at Object.toBe (E:\D Drive\Node.js_with_Express_Framework_quiz_answers\Challenge\test\cars.test.js:205:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="Viewing cars based on its manufacturer and search value" name="Viewing cars based on its manufacturer and search value" time="0">
+    </testcase>
+    <testcase classname="Viewing cars based on the capacity, search value and ascending order of its price" name="Viewing cars based on the capacity, search value and ascending order of its price" time="0">
+      <failure message="Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m&quot;car [7m1 di[27m&quot;[39m
+Received: [31m&quot;car [7m5[27m&quot;[39m
+    at Object.toBe (E:\D Drive\Node.js_with_Express_Framework_quiz_answers\Challenge\test\cars.test.js:245:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="Updating a car detail" name="Updating a car detail" time="0">
+    </testcase>
+    <testcase classname="Updating a car detail" name="Updating a car detail" time="0">
+    </testcase>
+    <testcase classname="Deleting a car from Database" name="Deleting a car from Database" time="0">
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+</testsuites>
